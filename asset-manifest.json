@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "//arayhan.github.io/iwd.wtmdepok/static/css/main.d1b05096.chunk.css",
-    "main.js": "//arayhan.github.io/iwd.wtmdepok/static/js/main.f3b2bc3c.chunk.js",
-    "main.js.map": "//arayhan.github.io/iwd.wtmdepok/static/js/main.f3b2bc3c.chunk.js.map",
-    "runtime-main.js": "//arayhan.github.io/iwd.wtmdepok/static/js/runtime-main.f2a5f561.js",
-    "runtime-main.js.map": "//arayhan.github.io/iwd.wtmdepok/static/js/runtime-main.f2a5f561.js.map",
-    "static/js/2.38fbd08b.chunk.js": "//arayhan.github.io/iwd.wtmdepok/static/js/2.38fbd08b.chunk.js",
-    "static/js/2.38fbd08b.chunk.js.map": "//arayhan.github.io/iwd.wtmdepok/static/js/2.38fbd08b.chunk.js.map",
-    "index.html": "//arayhan.github.io/iwd.wtmdepok/index.html",
-    "precache-manifest.6b8d717fe026ec186861e78f7dd227ba.js": "//arayhan.github.io/iwd.wtmdepok/precache-manifest.6b8d717fe026ec186861e78f7dd227ba.js",
-    "service-worker.js": "//arayhan.github.io/iwd.wtmdepok/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "//arayhan.github.io/iwd.wtmdepok/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.38fbd08b.chunk.js.LICENSE": "//arayhan.github.io/iwd.wtmdepok/static/js/2.38fbd08b.chunk.js.LICENSE",
-    "static/media/logo.svg": "//arayhan.github.io/iwd.wtmdepok/static/media/logo.5d5d9eef.svg"
+    "main.css": "/iwd.wtmdepok/static/css/main.aaec44a8.chunk.css",
+    "main.js": "/iwd.wtmdepok/static/js/main.056377c1.chunk.js",
+    "main.js.map": "/iwd.wtmdepok/static/js/main.056377c1.chunk.js.map",
+    "runtime-main.js": "/iwd.wtmdepok/static/js/runtime-main.002e5b0c.js",
+    "runtime-main.js.map": "/iwd.wtmdepok/static/js/runtime-main.002e5b0c.js.map",
+    "static/css/2.1f156bdb.chunk.css": "/iwd.wtmdepok/static/css/2.1f156bdb.chunk.css",
+    "static/js/2.b0b55b01.chunk.js": "/iwd.wtmdepok/static/js/2.b0b55b01.chunk.js",
+    "static/js/2.b0b55b01.chunk.js.map": "/iwd.wtmdepok/static/js/2.b0b55b01.chunk.js.map",
+    "index.html": "/iwd.wtmdepok/index.html",
+    "precache-manifest.2b05233b8851d92d4322c6704741a722.js": "/iwd.wtmdepok/precache-manifest.2b05233b8851d92d4322c6704741a722.js",
+    "service-worker.js": "/iwd.wtmdepok/service-worker.js",
+    "static/css/2.1f156bdb.chunk.css.map": "/iwd.wtmdepok/static/css/2.1f156bdb.chunk.css.map",
+    "static/css/main.aaec44a8.chunk.css.map": "/iwd.wtmdepok/static/css/main.aaec44a8.chunk.css.map",
+    "static/js/2.b0b55b01.chunk.js.LICENSE": "/iwd.wtmdepok/static/js/2.b0b55b01.chunk.js.LICENSE",
+    "static/media/wtm-logo.1c8947d6.png": "/iwd.wtmdepok/static/media/wtm-logo.1c8947d6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f2a5f561.js",
-    "static/js/2.38fbd08b.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.f3b2bc3c.chunk.js"
+    "static/js/runtime-main.002e5b0c.js",
+    "static/css/2.1f156bdb.chunk.css",
+    "static/js/2.b0b55b01.chunk.js",
+    "static/css/main.aaec44a8.chunk.css",
+    "static/js/main.056377c1.chunk.js"
   ]
 }
