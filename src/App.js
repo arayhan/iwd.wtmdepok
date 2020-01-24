@@ -1,6 +1,10 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
+import PartnerItem from "./components/PartnerItem";
+import ItemSession from "./assets/images/icons/street-view-500.png";
+import ItemNetworking from "./assets/images/icons/workspace-500.png";
+import GDGDepokLogo from "./assets/images/logo/gdgdepok-logo.png";
 import "./styles/app.scss";
 
 function App() {
@@ -24,6 +28,40 @@ function App() {
 						ladies from Indore get ready to witness one of the most power packed
 						event of 2019!
 					</p>
+				</div>
+			</div>
+			<div className="py-60">
+				<div className="container">
+					<div className="row col-md align-center">
+						<div className="col align-center font-center mr-10 mr-md-0 mb-md-20">
+							<img src={ItemSession} className="w-150" alt="item session" />
+							<div className="font-size-large font-bold">Sessions</div>
+							<p className="font-size-small">
+								5 knowledgeable sessions, dedicated to Android, Web, Graphic
+								designing and Quality Assurance.
+							</p>
+						</div>
+						<div className="col align-center font-center">
+							<img src={ItemNetworking} className="w-150" alt="item session" />
+							<div className="font-size-large font-bold">Networking</div>
+							<p className="font-size-small">
+								Best place to meet technical people and learn something new..!
+								Grow your network by interacting with them.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="bg-section-grey py-60">
+				<div className="container">
+					<div className="font-size-title-normal mb-30">Partners</div>
+					<div className="row-wrap align-stretch">
+						<PartnerItem url="/" image={GDGDepokLogo} alt="GDG Depok Logo" />
+						<PartnerItem url="/" image={GDGDepokLogo} alt="GDG Depok Logo" />
+						<PartnerItem url="/" image={GDGDepokLogo} alt="GDG Depok Logo" />
+						<PartnerItem url="/" image={GDGDepokLogo} alt="GDG Depok Logo" />
+					</div>
 				</div>
 			</div>
 		</div>

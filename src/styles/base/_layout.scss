@@ -23,6 +23,11 @@ $section-y-padding: 70px;
 	display: flex;
 	flex: 1;
 }
+.row-wrap {
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+}
 .col-md {
 	@include media-screen(tablet) {
 		flex-direction: column;
@@ -36,11 +41,21 @@ $section-y-padding: 70px;
 .align-center {
 	align-items: center;
 }
+.align-stretch {
+	align-items: stretch;
+}
 .justify-center {
 	justify-content: center;
 }
 .justify-between {
 	justify-content: space-between;
+}
+.justify-stretch {
+	justify-content: stretch;
+}
+.col {
+	display: flex;
+	flex-direction: column;
 }
 .flex-1 {
 	flex: 1;
@@ -54,13 +69,20 @@ $section-y-padding: 70px;
 }
 
 // Width
+.w-full {
+	width: 100%;
+	max-width: 100%;
+}
+
 @for $count from 0 through 50 {
-	.w-full {
-		width: 100%;
-		max-width: 100%;
-	}
 	.w-#{$count * 10} {
 		width: #{$count * 10}px;
+	}
+	.w-min-#{$count * 10} {
+		min-width: #{$count * 10}px;
+	}
+	.w-max-#{$count * 10} {
+		max-width: #{$count * 10}px;
 	}
 	@include media-screen(tablet) {
 		.w-md-#{$count * 10} {
