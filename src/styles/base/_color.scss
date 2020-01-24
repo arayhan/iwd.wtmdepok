@@ -4,6 +4,9 @@
 .color-font-secondary {
 	color: $color-secondary;
 }
+.color-font-text-title {
+	color: $grey-darken-4;
+}
 .color-font-text-primary {
 	color: $grey-darken-2;
 }
@@ -13,4 +16,7 @@
 
 .bg-red {
 	background-color: $red-base;
+}
+.bg-section-grey {
+	background-color: $grey-lighten-4;
 }
