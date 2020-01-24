@@ -1,3 +1,8 @@
+## NOTES
+
+add this code at package.json for deploy to ghpages
+"homepage": "https://arayhan.github.io/iwd.wtmdepok",
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
