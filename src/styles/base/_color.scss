@@ -5,8 +5,12 @@
 	color: $color-secondary;
 }
 .color-font-text-primary {
-	color: $grey-darken-3;
+	color: $grey-darken-2;
 }
 .color-font-text-secondary {
-	color: $grey-darken-2;
+	color: $grey-base;
+}
+
+.bg-red {
+	background-color: $red-base;
 }

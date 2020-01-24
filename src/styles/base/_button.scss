@@ -5,3 +5,15 @@ button,
 	transition: all 200ms ease;
 	display: inline-block;
 }
+
+.button {
+	background: $grey-lighten-3;
+	padding: 10px 20px;
+	color: $grey-darken-3;
+	border-radius: $radius-normal;
+
+	&.button-primary {
+		background: $color-primary;
+		color: white;
+	}
+}
