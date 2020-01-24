@@ -23,10 +23,10 @@ function App() {
 						by Google, is back to Break the Taboos of Women not being
 						technically sound and accentuating the brilliance of every
 						successful women in technology. This year, we’re organising the
-						third edition in Indore as a part of the special event of The Women
-						Techmakers Global Event Series - IWD'19. So, all the technical
-						ladies from Indore get ready to witness one of the most power packed
-						event of 2019!
+						third edition in Depok as a part of the special event of The Women
+						Techmakers Global Event Series - IWD'20. So, all the technical
+						ladies from Depok get ready to witness one of the most power packed
+						event of 2020!
 					</p>
 				</div>
 			</div>
