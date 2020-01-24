@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/iwd.wtmdepok/static/css/main.30f0fd29.chunk.css",
-    "main.js": "/iwd.wtmdepok/static/js/main.7463633c.chunk.js",
-    "main.js.map": "/iwd.wtmdepok/static/js/main.7463633c.chunk.js.map",
+    "main.css": "/iwd.wtmdepok/static/css/main.4740f87f.chunk.css",
+    "main.js": "/iwd.wtmdepok/static/js/main.fe5afb2c.chunk.js",
+    "main.js.map": "/iwd.wtmdepok/static/js/main.fe5afb2c.chunk.js.map",
     "runtime-main.js": "/iwd.wtmdepok/static/js/runtime-main.002e5b0c.js",
     "runtime-main.js.map": "/iwd.wtmdepok/static/js/runtime-main.002e5b0c.js.map",
     "static/css/2.1f156bdb.chunk.css": "/iwd.wtmdepok/static/css/2.1f156bdb.chunk.css",
     "static/js/2.b0b55b01.chunk.js": "/iwd.wtmdepok/static/js/2.b0b55b01.chunk.js",
     "static/js/2.b0b55b01.chunk.js.map": "/iwd.wtmdepok/static/js/2.b0b55b01.chunk.js.map",
     "index.html": "/iwd.wtmdepok/index.html",
-    "precache-manifest.5735d3c34d64c1aa372e3bed5bce290f.js": "/iwd.wtmdepok/precache-manifest.5735d3c34d64c1aa372e3bed5bce290f.js",
+    "precache-manifest.8c3ebaca03785fff023144cae219ba3c.js": "/iwd.wtmdepok/precache-manifest.8c3ebaca03785fff023144cae219ba3c.js",
     "service-worker.js": "/iwd.wtmdepok/service-worker.js",
     "static/css/2.1f156bdb.chunk.css.map": "/iwd.wtmdepok/static/css/2.1f156bdb.chunk.css.map",
-    "static/css/main.30f0fd29.chunk.css.map": "/iwd.wtmdepok/static/css/main.30f0fd29.chunk.css.map",
+    "static/css/main.4740f87f.chunk.css.map": "/iwd.wtmdepok/static/css/main.4740f87f.chunk.css.map",
     "static/js/2.b0b55b01.chunk.js.LICENSE": "/iwd.wtmdepok/static/js/2.b0b55b01.chunk.js.LICENSE",
+    "static/media/gdgdepok-logo.e3d644ab.png": "/iwd.wtmdepok/static/media/gdgdepok-logo.e3d644ab.png",
     "static/media/street-view-500.08933b29.png": "/iwd.wtmdepok/static/media/street-view-500.08933b29.png",
     "static/media/workspace-500.1843af74.png": "/iwd.wtmdepok/static/media/workspace-500.1843af74.png",
     "static/media/wtm-logo.1c8947d6.png": "/iwd.wtmdepok/static/media/wtm-logo.1c8947d6.png"
@@ -22,7 +23,7 @@
     "static/js/runtime-main.002e5b0c.js",
     "static/css/2.1f156bdb.chunk.css",
     "static/js/2.b0b55b01.chunk.js",
-    "static/css/main.30f0fd29.chunk.css",
-    "static/js/main.7463633c.chunk.js"
+    "static/css/main.4740f87f.chunk.css",
+    "static/js/main.fe5afb2c.chunk.js"
   ]
 }

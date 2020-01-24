@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ec79fb4a2064f36055a1a0dcea25f02",
+    "revision": "3ec7ee233923c510f69d207771133a85",
     "url": "/iwd.wtmdepok/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/iwd.wtmdepok/static/css/2.1f156bdb.chunk.css"
   },
   {
-    "revision": "aa69a20698b5e75a351f",
-    "url": "/iwd.wtmdepok/static/css/main.30f0fd29.chunk.css"
+    "revision": "bcdfbca19482bc8ca55c",
+    "url": "/iwd.wtmdepok/static/css/main.4740f87f.chunk.css"
   },
   {
     "revision": "678c2247dac9ffa3d4fd",
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/iwd.wtmdepok/static/js/2.b0b55b01.chunk.js.LICENSE"
   },
   {
-    "revision": "aa69a20698b5e75a351f",
-    "url": "/iwd.wtmdepok/static/js/main.7463633c.chunk.js"
+    "revision": "bcdfbca19482bc8ca55c",
+    "url": "/iwd.wtmdepok/static/js/main.fe5afb2c.chunk.js"
   },
   {
     "revision": "d90174be0a2e49092d5b",
     "url": "/iwd.wtmdepok/static/js/runtime-main.002e5b0c.js"
+  },
+  {
+    "revision": "e3d644ab47cfb2c122111ffa1e25405b",
+    "url": "/iwd.wtmdepok/static/media/gdgdepok-logo.e3d644ab.png"
   },
   {
     "revision": "08933b29a3a303633eaaca4151b2b11d",
