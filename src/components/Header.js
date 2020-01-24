@@ -11,7 +11,7 @@ const Header = () => {
 		<header>
 			<div className="container">
 				<div className="row col-md-reverse align-center py-60">
-					<div className="flex-2 pr-20">
+					<div className="flex-2 pr-md-0 pr-20 ">
 						<div className="mb-10 font-bold font-size-title-small color-font-text-primary">
 							International Women's Day 2019
 						</div>
