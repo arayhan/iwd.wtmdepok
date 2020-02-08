@@ -56,7 +56,7 @@ function App() {
 			<div className="bg-section-grey py-60">
 				<div className="container">
 					<div className="font-size-title-normal mb-30">Partners</div>
-					<div className="row-wrap align-stretch">
+					<div className="row-wrap">
 						<PartnerItem url="/" image={GDGDepokLogo} alt="GDG Depok Logo" />
 						<PartnerItem url="/" image={GDGDepokLogo} alt="GDG Depok Logo" />
 						<PartnerItem url="/" image={GDGDepokLogo} alt="GDG Depok Logo" />
