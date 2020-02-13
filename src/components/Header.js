@@ -16,7 +16,7 @@ const Header = () => {
 							International Women's Day 2020
 						</div>
 						<div className="font-bold font-size-title-normal color-font-secondary">
-							Lift as you Climb
+							Together We Rise
 						</div>
 						<p className="mb-30 color-font-text-primary">
 							International Women's Day is celebrated by WomenTechmaker all over

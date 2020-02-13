@@ -17,7 +17,7 @@ function App() {
 			<div className="bg-section-grey py-60">
 				<div className="container">
 					<div className="font-size-title-normal color-font-text-title">
-						Together We Rise
+						What you need to know, before you ask
 					</div>
 					<p className="color-font-text-primary">
 						Honouring this Women’s day, Women Techmakers - an initiative taken
