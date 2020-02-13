@@ -5,9 +5,9 @@ const PartnerItem = props => {
 	return (
 		<Link
 			to={props.url}
-			className="partner-item row flex-1 align-center justify-center w-max-250 py-20 px-20 mr-15 mb-15"
+			className="partner-item row align-center justify-center w-min-150 p-20"
 		>
-			<img src={props.image} className="w-min-50" alt={props.alt} />
+			<img src={props.image} alt={props.alt} />
 		</Link>
 	);
 };
