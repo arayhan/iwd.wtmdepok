@@ -5,6 +5,7 @@ import PartnerItem from "./components/PartnerItem";
 import ItemSession from "./assets/images/icons/street-view-500.png";
 import ItemNetworking from "./assets/images/icons/workspace-500.png";
 import GDGDepokLogo from "./assets/images/logo/gdgdepok-logo.png";
+import WTMLogo from "./assets/images/logo/wtm-logo-horizontal.png";
 import "./styles/app.scss";
 
 function App() {
@@ -16,17 +17,17 @@ function App() {
 			<div className="bg-section-grey py-60">
 				<div className="container">
 					<div className="font-size-title-normal color-font-text-title">
-						What you need to know, before you ask
+						Together We Rise
 					</div>
 					<p className="color-font-text-primary">
 						Honouring this Women’s day, Women Techmakers - an initiative taken
 						by Google, is back to Break the Taboos of Women not being
 						technically sound and accentuating the brilliance of every
 						successful women in technology. This year, we’re organising the
-						third edition in Depok as a part of the special event of The Women
-						Techmakers Global Event Series - IWD'20. So, all the technical
-						ladies from Depok get ready to witness one of the most power packed
-						event of 2020!
+						third edition in Depok and Jakarta as a part of the special event of
+						The Women Techmakers Global Event Series - IWD'20. So, all the
+						technical ladies from Depok and Jakarta get ready to witness one of
+						the most power packed event of 2020!
 					</p>
 				</div>
 			</div>
@@ -57,10 +58,10 @@ function App() {
 				<div className="container">
 					<div className="font-size-title-normal mb-30">Partners</div>
 					<div className="row-wrap">
-						<PartnerItem url="/" image={GDGDepokLogo} alt="GDG Depok Logo" />
-						<PartnerItem url="/" image={GDGDepokLogo} alt="GDG Depok Logo" />
-						<PartnerItem url="/" image={GDGDepokLogo} alt="GDG Depok Logo" />
-						<PartnerItem url="/" image={GDGDepokLogo} alt="GDG Depok Logo" />
+						<PartnerItem url="/" image={WTMLogo} alt="GDG Depok Logo" />
+						<PartnerItem url="/" image={WTMLogo} alt="GDG Depok Logo" />
+						<PartnerItem url="/" image={WTMLogo} alt="GDG Depok Logo" />
+						<PartnerItem url="/" image={WTMLogo} alt="GDG Depok Logo" />
 					</div>
 				</div>
 			</div>

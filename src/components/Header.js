@@ -32,13 +32,13 @@ const Header = () => {
 								<span className="mr-10">
 									<MaterialIcon icon="date_range" size={24} />
 								</span>
-								<span>7th March | 10 am to 3 pm</span>
+								<span>18th - 19th April | 10 am to 5 pm</span>
 							</div>
 							<div className="row align-center color-font-text-primary">
 								<span className="mr-10">
 									<Icon icon={androidPin} size={24} />
 								</span>
-								<span>Pesona Square</span>
+								<span>Universitas Trilogi</span>
 							</div>
 						</div>
 						<Ripples>
