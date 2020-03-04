@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import PartnerItem from "./components/PartnerItem";
 import ItemSession from "./assets/images/icons/street-view-500.png";
 import ItemNetworking from "./assets/images/icons/workspace-500.png";
@@ -57,7 +58,9 @@ function App() {
 			<div className="bg-section-grey py-60">
 				<div className="container">
 					<div className="font-size-title-normal mb-30">Partners</div>
-					<div className="row-wrap">
+					<div className="row-wrap justify-center">
+						<PartnerItem url="/" image={WTMLogo} alt="GDG Depok Logo" />
+						<PartnerItem url="/" image={WTMLogo} alt="GDG Depok Logo" />
 						<PartnerItem url="/" image={WTMLogo} alt="GDG Depok Logo" />
 						<PartnerItem url="/" image={WTMLogo} alt="GDG Depok Logo" />
 						<PartnerItem url="/" image={WTMLogo} alt="GDG Depok Logo" />
@@ -65,6 +68,8 @@ function App() {
 					</div>
 				</div>
 			</div>
+
+			<Footer />
 		</div>
 	);
 }
