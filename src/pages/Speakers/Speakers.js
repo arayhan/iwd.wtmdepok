@@ -31,7 +31,7 @@ class Speakers extends Component {
 		return (
 			<div>
 				<HeaderPage title="Speakers" subtitle="Our lineup of big thinkers and even bigger doers." />
-				<div className="container">
+				<div className="container py-60">
 					<div className="row">
 						{this.state.speakers.map(speaker => (
 							<div>

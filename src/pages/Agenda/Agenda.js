@@ -21,6 +21,26 @@ class Agenda extends Component {
 							title: 'Start Exploring TensorFlow.js',
 							speaker: 'Muh. Rahmatullah'
 						},
+						{
+							time: '09:00',
+							title: 'Start Exploring TensorFlow.js',
+							speaker: 'Muh. Rahmatullah'
+						},
+						{
+							time: '09:00',
+							title: 'Start Exploring TensorFlow.js',
+							speaker: 'Muh. Rahmatullah'
+						},
+						{
+							time: '09:00',
+							title: 'Start Exploring TensorFlow.js',
+							speaker: 'Muh. Rahmatullah'
+						},
+						{
+							time: '09:00',
+							title: 'Start Exploring TensorFlow.js',
+							speaker: 'Muh. Rahmatullah'
+						},
 					]
 				},
 				{
@@ -31,7 +51,27 @@ class Agenda extends Component {
 							time: '09:00',
 							title: 'Jetpack Compose: Modern UI Framework in Android',
 							speaker: 'Muh. Rahmatullah'
-						}
+						},
+						{
+							time: '09:00',
+							title: 'Jetpack Compose: Modern UI Framework in Android',
+							speaker: 'Muh. Rahmatullah'
+						},
+						{
+							time: '09:00',
+							title: 'Jetpack Compose: Modern UI Framework in Android',
+							speaker: 'Muh. Rahmatullah'
+						},
+						{
+							time: '09:00',
+							title: 'Jetpack Compose: Modern UI Framework in Android',
+							speaker: 'Muh. Rahmatullah'
+						},
+						{
+							time: '09:00',
+							title: 'Jetpack Compose: Modern UI Framework in Android',
+							speaker: 'Muh. Rahmatullah'
+						},
 					]
 				},
 			]

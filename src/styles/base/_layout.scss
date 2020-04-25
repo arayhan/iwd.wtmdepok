@@ -90,7 +90,7 @@ $section-y-padding: 70px;
 }
 
 // Padding
-@for $count from 0 through 20 {
+@for $count from 0 through 50 {
 	.p-#{$count * 5} {
 		padding-top: #{$count * 5}px;
 		padding-bottom: #{$count * 5}px;
