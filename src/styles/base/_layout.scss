@@ -83,6 +83,13 @@ $section-y-padding: 70px;
 	max-width: 100%;
 }
 
+@include media-screen(tablet) {
+	.w-md-full {
+		width: 100%;
+		max-width: 100% !important;
+	}
+}
+
 @for $count from 0 through 50 {
 	.w-#{$count * 10} {
 		width: #{$count * 10}px;

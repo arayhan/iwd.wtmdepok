@@ -60,9 +60,9 @@ class Team extends Component {
 			<div>
 				<HeaderPage title="Team" />
 				<div className="container py-60">
-					<div className="row-wrap">
+					<div className="row-wrap justify-center">
 						{this.state.teams.map(team => (
-							<div className="row col align-center justify-between w-min-250 w-max-250 mr-20 mb-20 px-20 py-40 border-1-grey">
+							<div className="card row col align-center justify-between border-1-grey">
 								<div className="row col align-center mb-20">
 									<div className="img-circle w-150 h-150 mb-10">
 										<img src={team.photo} alt={team.name} />

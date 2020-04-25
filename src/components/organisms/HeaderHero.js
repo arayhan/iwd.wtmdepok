@@ -37,7 +37,7 @@ const HeaderHero = () => {
               </div>
             </div>
             <Ripples>
-              <Link className="button button-primary">Registration</Link>
+              <a href="https://internationalwomensday-2020.web.app" className="button button-primary">Registration</a>
             </Ripples>
           </div>
           <div className="row justify-center align-center mb-md-40">
