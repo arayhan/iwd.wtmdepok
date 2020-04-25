@@ -11,7 +11,7 @@
 	color: $grey-darken-2;
 }
 .color-font-text-secondary {
-	color: $grey-base;
+	color: $grey-darken-1;
 }
 
 .bg-red {
@@ -29,4 +29,9 @@
 }
 .bg-grey-base {
 	background-color: $grey-base;
+}
+
+.border-1-grey {
+	border: 1px solid $grey-lighten-2;
+	border-radius: 5px;
 }
