@@ -79,9 +79,9 @@ class Speakers extends Component {
 			<div>
 				<HeaderPage title="Speakers" subtitle="Our lineup of big thinkers and even bigger doers." />
 				<div className="container py-60">
-					<div className="row-wrap justify-center">
+					<div className="row-wrap">
 						{this.state.speakers.map(speaker => (
-							<div className="row col align-center justify-between w-min-220 w-max-220 m-20 p-20 border-1-grey">
+							<div className="row col align-center justify-between w-min-250 w-max-250 mr-20 mb-20 px-20 py-40 border-1-grey">
 								<div className="row col align-center mb-20">
 									<div className="img-circle w-150 h-150 mb-10">
 										<img src={speaker.photo} alt={speaker.name} />
