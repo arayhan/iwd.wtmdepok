@@ -19,16 +19,16 @@ export class NavBar extends Component {
 			<nav>
 				<div className="container">
 					<div className="row justify-between align-center">
-						<Link className="logo">IWD</Link>
+						<Link to="/" className="logo">IWD</Link>
 						<div
 							className={isMenuActive ? "backdrop active" : "backdrop"}
 							onClick={() => this.setState({ isMenuActive: !isMenuActive })}
 						></div>
 						<div className={isMenuActive ? "menu active" : "menu row"}>
-							<Link>Home</Link>
-							<Link>Agenda</Link>
-							<Link>Speakers</Link>
-							<Link>Team</Link>
+							<Link to="/">Home</Link>
+							<Link to="/agenda">Agenda</Link>
+							<Link to="/speakers">Speakers</Link>
+							<Link to="/team">Team</Link>
 							<span className="row">
 								<Link>
 									<i class="fab fa-facebook-f"></i>

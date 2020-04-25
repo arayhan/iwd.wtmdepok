@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "react-router-dom"
-import MainHeader from "./components/MainHeader"
+import HeaderHero from "../../components/organisms/HeaderHero"
 import ItemSession from "../../assets/images/icons/street-view-500.png"
 import ItemNetworking from "../../assets/images/icons/workspace-500.png"
 import WTMLogo from "../../assets/images/logo/wtm-logo-horizontal.png"
@@ -9,7 +9,7 @@ class Home extends Component {
 	render() {
 		return (
 			<div>
-				<MainHeader />
+				<HeaderHero />
 
 				<div className="bg-section-grey py-60">
 					<div className="container">

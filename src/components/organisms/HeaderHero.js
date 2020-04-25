@@ -4,9 +4,9 @@ import Ripples from "react-ripples"
 import MaterialIcon from "material-icons-react"
 import { Icon } from "react-icons-kit"
 import { androidPin } from "react-icons-kit/ionicons/androidPin"
-import WTMLogo from "../../../assets/images/logo/wtm-logo.png"
+import WTMLogo from "../../assets/images/logo/wtm-logo.png"
 
-const MainHeader = () => {
+const HeaderHero = () => {
   return (
     <header>
       <div className="container">
@@ -49,4 +49,4 @@ const MainHeader = () => {
   )
 }
 
-export default MainHeader
+export default HeaderHero
