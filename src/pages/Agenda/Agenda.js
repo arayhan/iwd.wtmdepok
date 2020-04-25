@@ -5,7 +5,36 @@ class Agenda extends Component {
 	constructor(props) {
 		super(props)
 		this.state = {
-			active_tab: 'day-1'
+			active_tab: 'day-1',
+			agenda: [
+				{
+					id: 'day-1',
+					date: 'March, 21st',
+					topics: [
+						{
+							time: '08:00',
+							title: 'Start Exploring TensorFlow.js',
+							speaker: 'Alamanda Shantika'
+						},
+						{
+							time: '09:00',
+							title: 'Start Exploring TensorFlow.js',
+							speaker: 'Muh. Rahmatullah'
+						},
+					]
+				},
+				{
+					id: 'day-2',
+					date: 'March, 22st',
+					topics: [
+						{
+							time: '09:00',
+							title: 'Jetpack Compose: Modern UI Framework in Android',
+							speaker: 'Muh. Rahmatullah'
+						}
+					]
+				},
+			]
 		}
 	}
 
@@ -15,112 +44,33 @@ class Agenda extends Component {
 				<HeaderPage title="Agenda" subtitle="Our lineup of big thinkers and even bigger doers." />
 				<div className="tab">
 					<div className="container">
-						<span
-							onClick={() => this.setState({ active_tab: 'day-1' })}
-							class={`tab-link ${(this.state.active_tab === 'day-1') ? 'active' : ''}`}>
-							May 21st
-						</span>
-						<span
-							onClick={() => this.setState({ active_tab: 'day-2' })}
-							class={`tab-link ${(this.state.active_tab === 'day-2') ? 'active' : ''}`}>
-							May 22st
-						</span>
+						{this.state.agenda.map(item => (
+							<span
+								onClick={() => this.setState({ active_tab: item.id })}
+								class={`tab-link ${(this.state.active_tab === item.id) ? 'active' : ''}`}>
+								{item.date}
+							</span>
+						))}
 					</div>
 				</div>
 
-				{this.state.active_tab === 'day-1' &&
-					<div className="list container py-60">
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">08:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Start Exploring TensorFlow.js</div>
-								<em className="font-size-normal">Alamanda Shantika</em>
+				{this.state.agenda.map(item => {
+					if (this.state.active_tab === item.id) {
+						return (
+							<div className="list container py-60">
+								{item.topics.map(topic => (
+									<div className="list-item row p-30">
+										<div className="font-size-normal pr-20">{topic.time}</div>
+										<div>
+											<div className="font-size-normal font-bold pb-10">{topic.title}</div>
+											<em className="font-size-normal">{topic.speaker}</em>
+										</div>
+									</div>
+								))}
 							</div>
-						</div>
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">08:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Start Exploring TensorFlow.js</div>
-								<em className="font-size-normal">Alamanda Shantika</em>
-							</div>
-						</div>
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">08:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Start Exploring TensorFlow.js</div>
-								<em className="font-size-normal">Alamanda Shantika</em>
-							</div>
-						</div>
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">08:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Start Exploring TensorFlow.js</div>
-								<em className="font-size-normal">Alamanda Shantika</em>
-							</div>
-						</div>
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">08:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Start Exploring TensorFlow.js</div>
-								<em className="font-size-normal">Alamanda Shantika</em>
-							</div>
-						</div>
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">08:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Start Exploring TensorFlow.js</div>
-								<em className="font-size-normal">Alamanda Shantika</em>
-							</div>
-						</div>
-					</div>
-				}
-
-				{this.state.active_tab === 'day-2' &&
-					<div className="list container py-60">
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">09:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Jetpack Compose: Modern UI Framework in Android</div>
-								<em className="font-size-normal">Muh. Rahmatullah</em>
-							</div>
-						</div>
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">08:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Jetpack Compose: Modern UI Framework in Android</div>
-								<em className="font-size-normal">Muh. Rahmatullah</em>
-							</div>
-						</div>
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">08:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Jetpack Compose: Modern UI Framework in Android</div>
-								<em className="font-size-normal">Muh. Rahmatullah</em>
-							</div>
-						</div>
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">08:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Jetpack Compose: Modern UI Framework in Android</div>
-								<em className="font-size-normal">Muh. Rahmatullah</em>
-							</div>
-						</div>
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">08:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Jetpack Compose: Modern UI Framework in Android</div>
-								<em className="font-size-normal">Muh. Rahmatullah</em>
-							</div>
-						</div>
-						<div className="list-item row pb-40">
-							<div className="font-size-normal pr-20">08:00</div>
-							<div>
-								<div className="font-size-normal font-bold pb-10">Jetpack Compose: Modern UI Framework in Android</div>
-								<em className="font-size-normal">Muh. Rahmatullah</em>
-							</div>
-						</div>
-					</div>
-				}
+						)
+					}
+				})}
 			</div>
 		);
 	}

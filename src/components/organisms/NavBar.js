@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import MaterialIcon from "material-icons-react";
 import { Link } from "react-router-dom";
-import Ripples from "react-ripples";
 
 export class NavBar extends Component {
 	constructor(props) {
@@ -43,8 +42,7 @@ export class NavBar extends Component {
 						</div>
 						<button
 							className="burger"
-							onClick={() => this.setState({ isMenuActive: !isMenuActive })}
-						>
+							onClick={() => this.setState({ isMenuActive: !isMenuActive })}>
 							<MaterialIcon icon="dehaze" />
 						</button>
 					</div>
