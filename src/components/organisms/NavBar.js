@@ -1,18 +1,18 @@
-import React, { Component } from "react";
-import MaterialIcon from "material-icons-react";
-import { Link } from "react-router-dom";
+import React, { Component } from "react"
+import MaterialIcon from "material-icons-react"
+import { Link } from "react-router-dom"
 
 export class NavBar extends Component {
 	constructor(props) {
-		super(props);
+		super(props)
 
 		this.state = {
 			isMenuActive: false
-		};
+		}
 	}
 
 	render() {
-		let { isMenuActive } = this.state;
+		let { isMenuActive } = this.state
 
 		return (
 			<nav>
@@ -24,18 +24,18 @@ export class NavBar extends Component {
 							onClick={() => this.setState({ isMenuActive: !isMenuActive })}
 						></div>
 						<div className={isMenuActive ? "menu active" : "menu row"}>
-							<Link to="/">Home</Link>
-							<Link to="/agenda">Agenda</Link>
-							<Link to="/speakers">Speakers</Link>
-							<Link to="/team">Team</Link>
+							<Link onClick={() => this.setState({ isMenuActive: false })} to="/">Home</Link>
+							<Link onClick={() => this.setState({ isMenuActive: false })} to="/agenda">Agenda</Link>
+							<Link onClick={() => this.setState({ isMenuActive: false })} to="/speakers">Speakers</Link>
+							<Link onClick={() => this.setState({ isMenuActive: false })} to="/team">Team</Link>
 							<span className="row">
-								<Link>
+								<Link onClick={() => this.setState({ isMenuActive: false })}>
 									<i class="fab fa-facebook-f"></i>
 								</Link>
-								<Link>
+								<Link onClick={() => this.setState({ isMenuActive: false })}>
 									<i class="fab fa-instagram"></i>
 								</Link>
-								<Link>
+								<Link onClick={() => this.setState({ isMenuActive: false })}>
 									<i class="fab fa-meetup"></i>
 								</Link>
 							</span>
@@ -48,8 +48,8 @@ export class NavBar extends Component {
 					</div>
 				</div>
 			</nav>
-		);
+		)
 	}
 }
 
-export default NavBar;
+export default NavBar
