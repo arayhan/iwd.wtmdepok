@@ -27,13 +27,13 @@ const HeaderHero = () => {
                 <span className="mr-10">
                   <MaterialIcon icon="date_range" size={24} />
                 </span>
-                <span>18th - 19th April | 10 am to 5 pm</span>
+                <span>May 9th, 10th, 16th, 17th, 2020 | 14pm to 16pm</span>
               </div>
               <div className="row align-center color-font-text-primary">
                 <span className="mr-10">
                   <Icon icon={androidPin} size={24} />
                 </span>
-                <span>Universitas Trilogi</span>
+                <span>YouTube + Streamyard</span>
               </div>
             </div>
             <Ripples>
