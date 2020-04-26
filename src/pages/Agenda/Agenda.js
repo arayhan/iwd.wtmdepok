@@ -171,7 +171,7 @@ class Agenda extends Component {
 			<div>
 				<HeaderPage title="Agenda" subtitle="Our lineup of big thinkers and even bigger doers." />
 				<div className="tab">
-					<div className="container">
+					<div className="container row">
 						{this.state.agenda.map(item => (
 							<span
 								onClick={() => this.setState({ active_tab: item.id })}
